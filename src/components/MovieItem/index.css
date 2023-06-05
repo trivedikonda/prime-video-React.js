@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 18px;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  width: 650px;
+  height: 460px;
+  border-radius: 16px;
+}
